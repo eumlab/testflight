@@ -21,8 +21,11 @@
 
 -(void)dealloc{
     [super dealloc];
-    
 }
+
+//-(oneway void)release{
+//    // nothing
+//}
 
 +(EUMInstance*)instanceOf{
     static dispatch_once_t token;

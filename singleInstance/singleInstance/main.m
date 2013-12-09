@@ -16,9 +16,13 @@ int main(int argc, const char * argv[])
     EUMInstance *ins3 = [EUMInstance instanceOf];
     ins3.name = @"king";
     
+    EUMInstance *autoIns = [[[EUMInstance alloc] init] autorelease];
+    
     [ins release];
+    [NSThread sleepForTimeInterval:10];
     // release后内存并没有立即回收，此处依然可以访问属性
     NSLog(@"\r\n1:%@\r\n2:%@", ins.name, ins3.name);
+    NSLog(@"\r\n1:%@", autoIns.name);
     
     [pool drain];
     
