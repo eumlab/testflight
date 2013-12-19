@@ -1,0 +1,49 @@
+PODS:
+  - EUMLib (0.1):
+    - EUMLib/ARC
+    - EUMLib/Core
+    - Facebook-iOS-SDK
+    - FlurrySDK
+    - Helpshift
+    - MBProgressHUD
+    - TheAmazingAudioEngine
+    - UMengAnalytics
+  - EUMLib/ARC (0.1):
+    - Facebook-iOS-SDK
+    - FlurrySDK
+    - Helpshift
+    - MBProgressHUD
+    - TheAmazingAudioEngine
+    - UMengAnalytics
+  - EUMLib/Core (0.1):
+    - EUMLib/ARC
+    - Facebook-iOS-SDK
+    - FlurrySDK
+    - Helpshift
+    - MBProgressHUD
+    - TheAmazingAudioEngine
+    - UMengAnalytics
+  - Facebook-iOS-SDK (3.10.0)
+  - FlurrySDK (4.3.0)
+  - Helpshift (4.0.0)
+  - MBProgressHUD (0.8)
+  - TheAmazingAudioEngine (1.2)
+  - UMengAnalytics (2.2.1)
+
+DEPENDENCIES:
+  - EUMLib (from `git@github.com:caiguo37/eumlib.git`)
+
+EXTERNAL SOURCES:
+  EUMLib:
+    :git: git@github.com:caiguo37/eumlib.git
+
+SPEC CHECKSUMS:
+  EUMLib: 8c434aafa63c1566629bc99dc1213d475f526cb9
+  Facebook-iOS-SDK: ef402579aeb30cf0c4a6370fb0a927e3dc3059e5
+  FlurrySDK: 7d91ccc3b3591fd8eb8919f2b90e271e2b0acabe
+  Helpshift: 3c15a8d2f7ca074d929464279701e96b74522754
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  TheAmazingAudioEngine: e544f61ab180d6e83c9478cc47355420f61d7281
+  UMengAnalytics: f4fd387a67f1ac6cef005d196ddd690c9515566d
+
+COCOAPODS: 0.28.0
